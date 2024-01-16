@@ -16,6 +16,7 @@ export const MOCK_DATA = [
         price: 17890,
         img: aire,
         category: "climatizacion",
+        stock: 10,
         description: `Sistema Inverter, Frio-Calor, Función Deshumificador, Doble sensor de temperatura`
     },
     {
@@ -24,6 +25,7 @@ export const MOCK_DATA = [
         price: 7195,
         img: tv,
         category: "televisores",
+        stock: 10,
         description: `TV & Monitor LED android oficial, Ultra HD, Dolby Vision`
     },
     {
@@ -32,6 +34,7 @@ export const MOCK_DATA = [
         price: 5895,
         img: aspiradora,
         category: "limpieza",
+        stock: 10,
         description: `Para suelo duro o alfombra, Navegación inteligente con sensor giroscópico, Carga automáticamente`
     },
     {
@@ -40,6 +43,7 @@ export const MOCK_DATA = [
         price: 5895,
         img: aspiradora2,
         category: "limpieza",
+        stock: 10,
         description: `Con depósito de polvo fácil de vaciar, 3 niveles de filtración, bajo nivel de ruido, Incluye accesorios`
     },
     {
@@ -48,6 +52,7 @@ export const MOCK_DATA = [
         price: 5895,
         img: aspiradora3,
         category: "limpieza",
+        stock: 10,
         description: `Fácil acceso a la unidad de mano, para suelo duro o alfombra, Incluye accesorios`
     },
     {
@@ -56,6 +61,7 @@ export const MOCK_DATA = [
         price: 5895,
         img: tv2,
         category: "televisores",
+        stock: 10,
         description: `TV & Monitor LED android oficial, Ultra HD, Dolby Vision`
     },
     {
@@ -64,6 +70,7 @@ export const MOCK_DATA = [
         price: 5895,
         img: tv3,
         category: "televisores",
+        stock: 10,
         description: `Smart TV HD Android, Diseño slim, conexión HDMI y USB.`
     },
     {
@@ -72,6 +79,7 @@ export const MOCK_DATA = [
         price: 9895,
         img: aire2,
         category: "climatizacion",
+        stock: 10,
         description: `4 velocidades de ventilador, Sistema Frío-Calor, Filtro Anti-Bacterias, Deshumidificador`
     },
     {
@@ -80,6 +88,7 @@ export const MOCK_DATA = [
         price: 5895,
         img: aire3,
         category: "climatizacion",
+        stock: 10,
         description: `Control de encendido y apagado programable, Filtro Anti-Bacterias, Función frío/calor`
     }
 ]

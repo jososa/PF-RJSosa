@@ -1,4 +1,3 @@
-
 import { Loader } from "../Loader/Loader"
 import { Product } from "../Product/Product"
 import { useProducts } from "../hooks/useProducts"

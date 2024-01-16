@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { Submit } from "../Submit/Submit"
 
 export const Product = ( {products} ) => {
+    const { categoryId } = useParams()
     return (
         <section className="container m-auto mt-8">
-        <h2 className="text-4xl font-bold">Productos</h2>
+        <h2 className="text-4xl font-bold">{!categoryId ? "Todos los productos" : categoryId.toUpperCase()}</h2>
         <hr />
         <div className="grid grid-cols-3 gap-3">
             { products.map((item) => (
